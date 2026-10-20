@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Privacy Policy and data-deletion instructions for SpruceBruce AI, a Messenger chatbot in testing.">
+  <title>Privacy Policy | SpruceBruce AI</title>
+  <style>
+    :root { color-scheme:light; --ink:#15243a; --muted:#526279; --line:#dae5eb; --green:#008d86; --bg:#f4f8fa; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--bg); line-height:1.7; }
+    .wrap { max-width:840px; margin:0 auto; padding:32px 18px 64px; }
+    .header { background:linear-gradient(122deg,#093e78,#079e91); color:white; padding:26px; border-radius:23px; display:flex; align-items:center; gap:20px; }
+    .logo { width:104px; height:104px; border-radius:23px; background:white; object-fit:cover; flex-shrink:0; }
+    h1 { margin:0 0 3px; font-size:clamp(25px,5vw,38px); line-height:1.16; }
+    .subtitle { margin:0; opacity:.91; }
+    .panel { background:#fff; border:1px solid var(--line); border-radius:20px; padding:26px 30px; margin-top:19px; box-shadow:0 5px 24px rgba(32,66,86,.035); }
+    h2 { font-size:20px; margin:26px 0 7px; line-height:1.3; }
+    h2:first-child { margin-top:0; }
+    p { margin:9px 0 15px; }
+    ul { padding-left:23px; margin-top:7px; }
+    li { margin-bottom:6px; }
+    .date { color:var(--muted); font-size:14px; margin-top:13px; }
+    .note { border-left:4px solid var(--green); padding:12px 15px; background:#edf8f5; border-radius:0 10px 10px 0; }
+    a { color:#006b80; }
+    footer { color:var(--muted); text-align:center; font-size:13px; padding-top:24px; }
+    @media (max-width:520px) { .header{padding:20px;gap:13px}.logo{width:77px;height:77px;border-radius:17px}.panel{padding:22px 19px} }
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="header">
+    <img class="logo" src="sprucebruce-app-icon.png" alt="SpruceBruce AI chatbot mascot">
+    <div><h1>SpruceBruce AI</h1><p class="subtitle">Privacy Policy &amp; Data Deletion</p></div>
+  </header>
+  <p class="date">Effective date: October 20, 2026</p>
+  <article class="panel">
+    <p class="note"><strong>Current status:</strong> SpruceBruce AI is an experimental Facebook Messenger chatbot undergoing limited testing. The features described here reflect its current testing setup. Future features will require this policy to be updated before they are enabled.</p>
+
+    <h2>1. What SpruceBruce AI does</h2>
+    <p>SpruceBruce AI is a chatbot connected to a Facebook Page through Meta's Messenger Platform. During testing, it receives webhook events and may answer authorized test commands, such as <strong>/ping</strong>.</p>
+
+    <h2>2. Information received</h2>
+    <p>When you message the connected Facebook Page, the Messenger Platform may provide the chatbot with:</p>
+    <ul>
+      <li>the text and other information included in a message event;</li>
+      <li>a Page-scoped sender identifier, message identifier, and relevant event metadata;</li>
+      <li>information necessary to handle replies and verify the event.</li>
+    </ul>
+    <p>Please avoid sending sensitive personal information to the chatbot while it is in testing.</p>
+
+    <h2>3. How information is used</h2>
+    <p>Event information is used to verify that requests come from Meta, recognize authorized test commands, prevent duplicate processing, and send replies where enabled. The operator may use a Page-scoped sender identifier to approve a specific test account.</p>
+
+    <h2>4. Storage and retention</h2>
+    <p>The current experimental webhook does not maintain a permanent conversation-history database. It temporarily processes incoming events and holds a limited set of message identifiers in server memory to avoid duplicate processing. Technical console output may include a sender identifier and status/error information for troubleshooting.</p>
+    <p>Information handled by Meta, Cloudflare, or other infrastructure providers may be subject to their separate retention practices. This policy covers the app operator's handling of information, not data controlled independently by those providers.</p>
+
+    <h2>5. Service providers</h2>
+    <p>The test setup uses Meta's Messenger Platform to receive and send messages and Cloudflare Tunnel to securely route webhook requests to the app's server. These services may process information necessary to provide their functions under their own privacy terms.</p>
+    <p><strong>Planned features are not yet active:</strong> the developer may later add AI model services (such as Gemini or Groq), persistent memory, shopping lists, spending records, and reminders. If activated, those features may require additional storage and information sharing. This policy will be updated to describe the actual practices before those features are offered.</p>
+
+    <h2>6. Sharing and advertising</h2>
+    <p>The app operator does not sell Messenger content or use it for targeted advertising. Information may pass through service providers needed to operate the chatbot and may be disclosed if required by applicable law.</p>
+
+    <h2>7. Security</h2>
+    <p>The webhook is designed to verify signed requests from Meta, restrict test responses to an authorized sender, and keep platform credentials separate from public website files. No online system can guarantee absolute security.</p>
+
+    <h2>8. Your choices and data deletion</h2>
+    <p>To request information about data handled by SpruceBruce AI, ask for correction where applicable, or request deletion of information controlled by the app operator, <strong>contact the SpruceBruce AI Facebook Page through Messenger</strong>. Write <strong>“Privacy request”</strong> or <strong>“Delete my data”</strong> and briefly explain your request. A Page administrator can review the request manually.</p>
+    <p>Requests will be reviewed and handled within the time required by applicable law. Deletion by SpruceBruce AI does not automatically delete messages or records independently held by Meta or other providers; use their own privacy controls for those records.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>This policy may change as the chatbot develops. The updated version and effective date will be posted here. The chatbot's handling of data should be reviewed before enabling new AI, memory, or finance features.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about this policy, contact the administrator of the <strong>SpruceBruce AI Facebook Page</strong> through Messenger. Please do not post access tokens, passwords, or other secrets in a message.</p>
+  </article>
+  <footer>SpruceBruce AI &middot; Privacy policy for the experimental Messenger chatbot.</footer>
+</main>
+</body>
+</html>
